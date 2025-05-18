@@ -1,0 +1,670 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    top: 0px;
+    background-color: white;
+    border-bottom: 1px solid white;
+    align-items: center;
+    position: sticky;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.navbar_s1-1 {
+    width: 150px;
+}
+
+.navbar_s3-1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.ren {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    background-color: none;
+
+}
+
+.in {
+    text-decoration: none;
+    color: black;
+}
+
+.in:hover {
+    text-decoration: underline;
+}
+
+.yun {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_s3 p {
+    background-color: white;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.mylearning-1 p {
+    background-color: white;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.navbar_s3 p:hover {
+    background-color: rgb(229, 223, 223);
+    border: 1px solid white;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.mylearning-1 p:hover {
+    background-color: rgb(229, 223, 223);
+    border: 1px solid white;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.uni {
+    color: #b7b3b3;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.pen h1 {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pon {
+    text-decoration: none;
+    color: black;
+}
+
+.pon1 {
+    text-decoration: none;
+    color: rgb(233, 226, 226);
+}
+
+.ren p {
+    background-color: white;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.ren p:hover {
+    background-color: rgb(229, 223, 223);
+    border: 1px solid white;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.ren button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.den {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.ren1 {
+    width: fit-content
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.call1 {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    width: 40%;
+}
+
+.call1 input {
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    width: 60%;
+}
+
+.call input:focus {
+    outline: none;
+}
+
+.ren1 a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.call1 button {
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: rgb(19, 169, 169);
+    border: 1px black solid;
+    color: black;
+    font-size: 15px;
+}
+
+.sales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales img {
+    width: 70%;
+    margin-top: 40px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.sale-1 {
+    position: absolute;
+    padding: 30px;
+    width: fit-content;
+    height: fit-content;
+    top: 760px;
+}
+
+.sale-1 h1 {
+    color: white;
+}
+
+.sale-1 p {
+    color: white;
+}
+
+.sale-1 button {
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid rgb(152, 148, 148);
+}
+
+.sale-1 button:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.call1 button:hover {
+    opacity: 0.8;
+}
+
+.sale-1 {
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.pen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: bottom;
+
+}
+
+.pen h1 {
+    margin-left: 600px;
+}
+
+.sale-2 {
+    position: absolute;
+    padding: 30px;
+    right: 250px;
+    bottom: 160px
+}
+
+.ten {
+    width: 68%;
+    text-align: center;
+}
+
+.ten h3 {
+    margin-right: 300px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.ten p {
+    margin-right: 159px;
+
+}
+
+.fun1 {
+    width: 300px;
+
+}
+
+.fun1 img {
+    width: 75%;
+    height: 60%;
+    margin-right: 100px;
+    border-radius: 5px;
+
+
+
+}
+
+.fun1 img:hover {
+    opacity: 0.8;
+}
+
+.fun {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.fun-1 {
+    top: 80%;
+    position: absolute;
+    padding: 2px;
+    margin-left: 10px;
+    color: white;
+}
+
+.eni {
+    position: absolute;
+    margin-left: 207px;
+    border-radius: 50%;
+    width: fit-content;
+    background-color: #b7b3b3;
+}
+
+.yum {
+    width: 68%;
+    text-align: center;
+}
+
+.yum h3 {
+    margin-right: 280px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.yum p {
+    margin-right: 305px;
+}
+
+.cousre-card {
+    width: 300px;
+
+}
+
+.cousre-card p {
+    color: #444242;
+}
+
+.cousre-card img {
+    width: 75%;
+    height: 60%;
+    margin-right: 100px;
+    border-radius: 5px;
+
+
+}
+
+.cousre-card img:hover {
+    opacity: 0.6;
+}
+
+.cousre-card h3 {
+    font-weight: light;
+}
+
+.mem {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.tun {
+    text-align: left;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+.jun {
+    background-color: rgb(230, 228, 228);
+    margin-top: 60px;
+}
+
+.wen1 {
+    width: 300px;
+
+}
+
+.wen1 img {
+    width: 100%;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+.wen {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-around;
+    position: relative;
+    width: 100%
+}
+
+.wen1 a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 2px;
+}
+
+.wen1 a:hover {
+    text-decoration: underline;
+}
+
+.wen1 img:hover {
+    opacity: 0.7;
+}
+
+.jan {
+    width: 68%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.jan h2 {
+    margin-right: 230px;
+    padding-top: 20px;
+    line-height: 40px;
+
+}
+
+.jan h4 {
+    margin-right: 190px;
+}
+
+.feb1 {
+    width: 300px;
+
+}
+
+.feb1 img {
+    width: 75%;
+    height: 60%;
+    margin-right: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+
+}
+
+.feb1 img:hover {
+    opacity: 0.8;
+}
+
+.feb {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.feb2 {
+    top: 80%;
+    position: absolute;
+    padding: 2px;
+    margin-left: 10px;
+    color: white;
+}
+
+.eni1 {
+    position: absolute;
+    margin-left: 208px;
+    border-radius: 50%;
+    width: fit-content;
+    background-color: #b7b3b3;
+}
+
+.march {
+    width: 68%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.march h2 {
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.march1 {
+    width: 300px;
+
+}
+
+.march1 img {
+    width: 75%;
+    height: 60%;
+    margin-right: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+
+}
+
+.march1 img:hover {
+    opacity: 0.8;
+}
+
+.mar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.march2 {
+    top: 80%;
+    position: absolute;
+    padding: 2px;
+    margin-left: 10px;
+    color: white;
+}
+
+.eni2 {
+    position: absolute;
+    margin-left: 208px;
+    border-radius: 50%;
+    width: fit-content;
+    background-color: #b7b3b3;
+}
+
+.dec img {
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+
+}
+
+.dec1 button {
+    margin-top: 0px;
+    color: rgb(255, 254, 254);
+    background-color: rgb(6, 6, 6);
+    font-weight: bold;
+    border: 1px solid rgb(152, 148, 148);
+    margin-left: 100px
+}
+
+.dec button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(222, 219, 219);
+    color: rgb(12, 11, 11);
+    margin-top: 40px;
+    padding: 40px;
+    opacity: 0.8;
+}
+
+.ran {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+
+.ran p {
+    margin: 20px;
+}
+
+.footer-four {
+    margin-left: 200px;
+}
+
+.footer--one p:hover,
+.footer--two p:hover,
+.footer-three p:hover {
+    text-decoration: underline;
+}
+
+.umi:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.umi{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.footer-1 select{
+    padding:10px;
+    width:100px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.oil{
+    float: right;
+}
+.oil i{
+    width:50px
+}
+.oil i:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.tin{
+    font-size:14px;
+    margin-left:10px;
+    opacity: 0.8;
+}
+@media screen and (max-width:800px){
+    body{
+        font-size:10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .mar{
+      -ms-flex-align: start;
+    }
+    .navbar_s3-1,.pon{
+        display: none;
+    }
+    .call1{
+        width:300px;
+        }
+    .call1 button{
+        top:0
+    }
+   .sale-1{
+     top:500px;
+     width:50%;
+     height:30px
+   } 
+   .sales img{
+    width:400px
+   }
+   .sale-2 img{
+    width:50px;
+    left:200px;
+    top:50px
+
+   }
+   .ten,.yum,.tun,.jan,.footer{
+    width:fit-content
+   }
+}
